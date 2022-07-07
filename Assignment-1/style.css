@@ -1,0 +1,52 @@
+*
+{
+    background-color:rgb(242, 227, 208); 
+    font-size: 23px;
+}
+button
+{
+    font-size: 25px;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(216, 161, 161);
+    font-weight: bold;
+}
+.Pokemon-Gallery1
+{
+    padding: 20px;
+}
+img
+{
+    border: 2px solid black;
+}
+img:hover
+{
+    border: 2px solid red;
+}
+.gallery
+{
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+.Pokemon-Gallery1
+{
+    display: flex;
+    justify-content: space-around;
+}
+button:hover
+{
+    background-color: rgb(158, 154, 224);
+    text-decoration: underline;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+    
+}
+form label
+{
+    font-weight: bold;
+}
