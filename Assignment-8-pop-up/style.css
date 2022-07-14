@@ -1,0 +1,31 @@
+#box
+{
+    background-color: bisque;
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+.clicks
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.clicks:hover
+{
+    background-color: rgb(243, 121, 121);
+    font-weight: bold;
+}
+body{
+    background-color: black;
+}
+
+#box.show
+{
+    visibility: visible;
+}
+
